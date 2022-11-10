@@ -422,10 +422,23 @@ footer img{
 .spacer{
   display: none;
 }
+
+
   .btn-lg{
-    padding: 0.25rem 0.5rem;
-font-size: .875rem;
-border-radius: 0.2rem;
+    padding: 5px 21px 5px 21px;
+    font-size: .875rem;
+    border-radius: 0.2rem;
+  }
+
+
+  .portfolio-card img{
+    Width: 177.97px;
+    Height: 112px;
+  }
+
+  .lead img{
+    width: 10px;
+    height: 10px;
   }
 
   .dark-text{
@@ -482,6 +495,10 @@ border-radius: 0.2rem;
 footer img {
   width: 77px;
   height: 83.6px
+}
+
+.footer-email{
+  padding: 0;
 }
 
 }

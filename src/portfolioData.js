@@ -11,20 +11,20 @@ const data = [
     },
 
     {   id: 2,
-        imageURL: "/images/portfolio-img/eagle-exchange.png",
+        imageURL: "/images/portfolio-img/eagle-exchange.jpg",
         jobTitle: "Eagle Exchange",
         section: "socialMedia"
     },
 
     {   id: 3,
-        imageURL: "/images/portfolio-img/cryptoBack.png",
+        imageURL: "/images/portfolio-img/cryptoBack.jpg",
         jobTitle: "Express Cryptoback",
         section: "socialMedia"
     },
 
     {
         id: 4,
-        imageURL: "/images/portfolio-img/digi-oats.png",
+        imageURL: "/images/portfolio-img/digi-oats.jpg",
         jobTitle: "Digi Oats - A cryptocurrency company",
         section: "brandIdentity"
         
@@ -32,7 +32,7 @@ const data = [
 
     {
         id: 5,
-        imageURL: "/images/portfolio-img/pathway.png",
+        imageURL: "/images/portfolio-img/pathway.jpg",
         jobTitle: "The Pathway Church",
         section: "brandIdentity"
         
@@ -40,7 +40,7 @@ const data = [
 
     {
         id: 6,
-        imageURL: "/images/portfolio-img/sanside.png",
+        imageURL: "/images/portfolio-img/sanside.jpg",
         jobTitle: "Sanside Untied Football Club",
         section: "brandIdentity"
         
@@ -56,7 +56,7 @@ const data = [
 
     {
         id: 8,
-        imageURL: "/images/portfolio-img/xplore.png",
+        imageURL: "/images/portfolio-img/xplore.jpg",
         jobTitle: "Xplore cities",
         section: "brandIdentity"
         
@@ -64,7 +64,7 @@ const data = [
 
     {
         id: 9,
-        imageURL: "/images/portfolio-img/vix-logistics.png",
+        imageURL: "/images/portfolio-img/vix-logistics.jpg",
         jobTitle: "Vix Logistics",
         section: "brandIdentity"
         
@@ -72,7 +72,7 @@ const data = [
 
     {
         id: 10,
-        imageURL: "/images/portfolio-img/twain.png",
+        imageURL: "/images/portfolio-img/twain.jpg",
         jobTitle: "Twain Property",
         section: "brandIdentity"
         
@@ -80,7 +80,7 @@ const data = [
 
     {
         id: 11,
-        imageURL: "/images/portfolio-img/meyer.png",
+        imageURL: "/images/portfolio-img/meyer.jpg",
         jobTitle: "Meyer",
         section: "brandIdentity"
         
@@ -89,7 +89,7 @@ const data = [
 
     {
         id: 12,
-        imageURL: "/images/portfolio-img/icon.png",
+        imageURL: "/images/portfolio-img/icon.jpg",
         jobTitle: "Icons",
         section: "productDesign"
         
@@ -98,7 +98,7 @@ const data = [
     
     {
         id: 13,
-        imageURL: "/images/portfolio-img/bp.png",
+        imageURL: "/images/portfolio-img/bp.jpg",
         jobTitle: "BP Productions",
         section: "productDesign"
         
@@ -106,7 +106,7 @@ const data = [
 
     {
         id: 14,
-        imageURL: "/images/portfolio-img/koolite.png",
+        imageURL: "/images/portfolio-img/koolite.jpg",
         jobTitle: "Koolite",
         section: "productDesign"
         
@@ -115,7 +115,7 @@ const data = [
 
     {
         id: 15,
-        imageURL: "/images/portfolio-img/stayfit.png",
+        imageURL: "/images/portfolio-img/stayfit.jpg",
         jobTitle: "Stayfit",
         section: "productDesign"
         
@@ -123,7 +123,7 @@ const data = [
 
     {
         id: 16,
-        imageURL: "/images/portfolio-img/12-dashboard.png",
+        imageURL: "/images/portfolio-img/12-dashboard.jpg",
         jobTitle: "12 dashboard",
         section: "productDesign"
         
@@ -133,7 +133,7 @@ const data = [
 
     {
         id: 17,
-        imageURL: "/images/portfolio-img/twain-properties.png",
+        imageURL: "/images/portfolio-img/twain-properties.jpg",
         jobTitle: "Twain Properties",
         section: "productDesign"
         
@@ -141,7 +141,7 @@ const data = [
 
     {
         id: 18,
-        imageURL: "/images/portfolio-img/yend-school.png",
+        imageURL: "/images/portfolio-img/yend-school.jpg",
         jobTitle: "Yend school",
         section: "productDesign"
         

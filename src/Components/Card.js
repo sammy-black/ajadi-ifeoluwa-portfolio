@@ -5,7 +5,7 @@
 const Card = (props ) => {
 
     return (
-        <div  className="card bg-transparent col-lg-4 ">
+        <div  className="card bg-transparent col-lg-4 portfolio-card ">
 
        <img src={props.img} className="card-img-top" width="375" height="236" alt={props.alt}/>
 

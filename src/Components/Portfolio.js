@@ -26,7 +26,7 @@ const Portfolio = ( ) => {
     >
       <Tab  eventKey="social-media" title="Social Media Ads Design">
 
-      <div className="row">
+      <div className="row row-cols-2 row-cols-md-3">
 
             {data?.filter(item => item.section === "socialMedia").map(item => {
 
@@ -49,7 +49,7 @@ const Portfolio = ( ) => {
 
       <Tab  eventKey="brand" title="Brand Identity Design">
 
-      <div className="row">
+      <div className="row row-cols-2 row-cols-md-3">
 
 {data?.filter(item => item.section === "brandIdentity").map(item => {
 
@@ -72,7 +72,7 @@ const Portfolio = ( ) => {
 
       <Tab eventKey="product-design" title="Product Design">
         
-      <div  className="row">
+      <div  className="row row-cols-2 row-cols-md-3">
 
 {data?.filter(item => item.section === "productDesign").map(item => {
 
