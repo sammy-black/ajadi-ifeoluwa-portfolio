@@ -26,7 +26,7 @@ const Hero = () =>{
     
           </div>
           <p className="lead">
-            <a href="#"   className="btn btn-lg btn-secondary fw-bold border-white bg-white text-dark" rel="noreferrer">
+            <a href="/#"   className="btn btn-lg btn-secondary fw-bold border-white bg-white text-dark" rel="noreferrer">
               Download Cv <span style={{marginLeft: "15px" }} className="btn-label"> <img src="images/arrowup.png" alt=""/></span> </a>
             <a href="#portfolio" className="btn btn-lg btn-secondary fw-bold border-white bg-white text-dark">
               View Portfolio <span style={{marginLeft: "15px" }} className="btn-label"> <img src="images/arrowdown.png" alt=""/></span>
