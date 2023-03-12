@@ -1,4 +1,4 @@
-
+import "./Tools.css"
 
 
 const Tools = () => {

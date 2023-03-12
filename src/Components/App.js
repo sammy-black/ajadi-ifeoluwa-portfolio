@@ -1,9 +1,9 @@
- import Navbar from "./Navbar";
- import Hero from "./Hero";
- import Partners from "./Partners";
- import Services from "./Services";
- import Tools from "./Tools";
- import Portfolio from "./Portfolio";
+ import Navbar from "./NavBar/Navbar";
+import Hero from "./Hero/Hero";
+ import Partners from "./Partners/Partners";
+ import Services from "./ServicesSection/Services";
+ import Tools from "./ToolsSection/Tools";
+ import Portfolio from "./Portfolio/Portfolio";
  import Testimonial from "./Testimonial";
  import Footer from "./Footer";
 

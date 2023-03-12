@@ -1,0 +1,67 @@
+#header-hero{
+    margin-bottom: 120px;
+  }
+
+.ajadi-img{
+    width: 85%;
+  }
+
+  .spacer{
+    height: 100px;
+  }
+
+ .lead .MuiButtonBase-root{
+    background-color: white;
+    color: black;
+    text-transform: none;
+    margin: 0 .5rem;
+ }
+
+ .lead a{
+    text-decoration: none;
+    min-width: 64px;
+    padding: 6px 16px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    border-radius: 4px;
+    
+ }
+
+ @media screen and (min-width: 600px) {
+
+    .lead a {
+            padding: 20px 64px;
+            margin: 0 10px;
+            border-radius: 16px;
+            font-size: 24px;   
+    }
+
+    .lead .MuiSvgIcon-root{
+        font-size: 35px;
+    }
+    
+ }
+
+@media screen and (max-width: 430px) {
+
+    .ajadi-img{
+      width: 80%;
+    }
+
+  .spacer{
+    display: none;
+  }
+
+  .lead{
+    margin-top: 2rem;
+  }
+
+
+  .lead img{
+    height: 16px;
+    padding-bottom: 5px;
+  }
+
+}

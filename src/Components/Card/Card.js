@@ -1,18 +1,38 @@
+import arrow from "../../assets/images/Vector.png"
+import "./Card.css"
+
+
+
+ 
 
 
 
 
 const Card = (props ) => {
 
+  let attachedClasses = ["card", "col-lg-4", "portfolio-card", props.bg];
+     
+  
+
+   
+
     return (
-        <div  className="card bg-transparent col-lg-4 portfolio-card ">
+        <div  className={attachedClasses.join(' ')}>
 
-       <img src={props.img} className="card-img-top" width="375" height="236" alt={props.alt}/>
+        <hr/>
 
-        <div className="card-body">
-        <h5 className="card-title">{props.jobTitle}</h5>
+        <h1>{props.companyName}</h1>
+
+        <p>{props.jobDesc}</p>
+
+        <div style={{textAlign: "end", position: "relative"}} >
+
+          <button> <img  style={{width:"18px",height: "18px"}} src={arrow} alt=""/></button>
 
         </div>
+         
+
+       
 
         </div>
     )

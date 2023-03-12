@@ -1,0 +1,38 @@
+
+#header .MuiSvgIcon-root{
+   font-size: 32px;
+   color: white;
+}
+
+.behance{
+    height: 20px;
+    width: 32px;
+}
+
+
+#header .MuiSvgIcon-root:hover, .behance:hover {
+    opacity: .4;
+}
+
+
+
+@media (max-width: 500px) {
+    .nav{
+       flex-wrap: nowrap;
+    }
+
+    #header .MuiSvgIcon-root{
+        font-size: 25px;
+     }
+
+     .behance{
+        height: 18px;
+        width: 22px;
+    }
+     
+}
+    
+
+
+
+

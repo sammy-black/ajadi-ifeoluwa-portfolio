@@ -1,5 +1,4 @@
-
-import { TestimonialCard } from "./Card";
+import { TestimonialCard } from "./Card/Card";
 import testimonialData from "../testimonialData";
 
 

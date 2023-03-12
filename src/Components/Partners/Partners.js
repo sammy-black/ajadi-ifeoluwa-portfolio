@@ -1,37 +1,30 @@
-
-import { Slide } from 'react-slideshow-image';
+import "./Partners.css"
 import 'react-slideshow-image/dist/styles.css';
 
 
 const Partners = () => {
 
 
-    const responsiveSettings = [
-        {
-            breakpoint: 800,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 500,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        }
-    ];
+   
 
     
 
     return (
-        <div id="trusted-clients">
+    <div className="trusted-clients">
     <div className="container text-center mt-5">
 
       <h1>Trusted By</h1>
 
-      <Slide slidesToScroll={1} slidesToShow={1} indicators={false}  responsive={responsiveSettings}>
+      <div className="partner-container">
+      <img style={{width: "174", height: "60px"}} src="/images/partners/bitnob.png" alt="bitnob"/>
+      <img style={{height: "100px"}} src="/images/partners/pz-cussons.png" alt="cussons"/>  
+      <img style={{width: "150", height: "100px"}} src="/images/partners/baptist-press.png" alt="baptist-press"/> 
+      <img style={{width: "194px", height: "50px"}} src="/images/partners/digiOats.png" alt="digioats"/>
+      <img style={{width: "150", height: "100px"}} src="/images/partners/thermcool.png" alt="thermcool"/>
+      <img style={{width: "150", height: "100px"}} src="/images/partners/bp-production.png" alt="bp-production"/>
+      </div>
+
+      {/* <Slide slidesToScroll={1} slidesToShow={1} indicators={false}  responsive={responsiveSettings}>
 
             <div className="each-slide-effect">
                 <div >
@@ -80,7 +73,7 @@ const Partners = () => {
       
 
 
-      </Slide>
+
 
 
 

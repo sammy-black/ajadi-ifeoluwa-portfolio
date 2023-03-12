@@ -1,6 +1,10 @@
 
 import { Link } from "react-router-dom"
-
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import behance from "../../assets/images/behance.png"
+import "./Navbar.css"
 
 const Navbar  = () => {
 
@@ -21,17 +25,17 @@ const Navbar  = () => {
               <nav className="nav">
                 <Link className="nav-link" to="//api.whatsapp.com/send?phone=+2349071682492&amp;text=Hi, Ajadi Ife" target="_blank">
     
-                  <i className="social-icons fab fa-whatsapp"></i>
+                  <WhatsAppIcon />
                 </Link>
                 <Link className="nav-link" to="#">
-                  <i className="social-icons fab fa-twitter"></i>
+                  <TwitterIcon />
                 </Link>
                 <Link className="nav-link" to="#">
-                  <i className="social-icons fab fa-instagram"></i>
+                  <InstagramIcon />
                 </Link>
     
                 <Link className="nav-link" to="#">
-                  <i className="social-icons fab fa-behance"></i>
+                  <img className="behance"  src={behance} alt="behance"/>
                 </Link>
     
               </nav>

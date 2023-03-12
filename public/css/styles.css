@@ -71,11 +71,6 @@ h1{
 }
 
 
-#header-hero{
-
-  margin-bottom: 100px;
-}
-
 
 .image-box{
   position: relative;
@@ -101,42 +96,14 @@ h1{
   width: 80%;
 }
 
-.ajadi-1{
-  left: 50%;
-  transform: translate(-50%,-50%);
-  top: 50%;
-}
 
-.ajadi-2, .ajadi-3{
-  top: 5%;
-}
-
-.ajadi-2{
-  left: 18%;
-  transform: translate(-18%, 5%);
-}
-
-.ajadi-3{
-  right: 17%;
-  transform: translate(17%, 5%);
-}
-
-.ajadi-4, .ajadi-5{
-  bottom: -22%;
-}
-
-.ajadi-4{
-  left: 5%;
-}
-
-.ajadi-5{
-  right: 5%;
-}
 
 .portfolio-tab .nav-link, .dark-text{
   color: #CFD2CF;
   opacity: 0.5;
 }
+
+
 
 .nav-link:hover {
     color: grey;
@@ -148,63 +115,6 @@ h1{
   margin: 0 auto;
 }
 
-.spacer{
-  height: 150px;
-}
-
-#trusted-clients{
- padding: 1.5rem, 0;
-}
-
-.lead{
-  margin-top: 4rem;
-}
-
-.react-slideshow-wrapper .images-wrap {
-
-  align-items: center;
-  margin:  1.5rem 0;
-}
-
-.btn{
-  padding: 16px 64px;
-  margin: 0 10px;
-  border-radius: 16px;
-}
-
-#services img{
-  width: 100%;
-}
-
-.service-img-container{
-  padding: 0 5rem;
-}
-
-.service-text{
-  padding:0 16rem 0 0;
-}
-
-.service-text h1{
-  text-align: start;
-}
-
-.serviceList-container{
-  margin-top: 2rem;
-}
-.serviceList-container p {
-  display: inline-block;
-  color: white;
-  width: 50%;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 36px;  
-}
-
-.tools-list img{
-  width: 80px;
-  height: 80px;
-  margin: 20px;
-}
 
 #portfolio{
   margin: 100px 0;
@@ -228,9 +138,6 @@ text-align: center;
 
 }
 
-.card img {
-  background-color: #D9D9D9;
-}
 
 
 .tab-content{
@@ -320,35 +227,17 @@ footer img{
 
 @media screen and (max-width: 769px) {
 
-
-  .order-1 {
-      order: 2!important;
-  }
-
-  .order-2 {
-    order: 1!important;
-}
-
-
   .dark-text{
     width: 50%;
   }
 
-.service-text{
- padding-right: 0;
-  margin: 5rem auto 0 auto;
-  width: 60%;
-  text-align: center;
-}
+
 
 #portfolio{
   margin: 3rem 0;
 }
 
-.desc-text{
-    text-align: center !important;
-    margin-bottom: 4rem;
-  }
+
 
 
 .card{
@@ -393,7 +282,8 @@ footer img{
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
+
 
   h1{
     font-size: 40px;
@@ -419,27 +309,7 @@ footer img{
     height: 140px;
 }
 
-.spacer{
-  display: none;
-}
 
-
-  .btn-lg{
-    padding: 5px 21px 5px 21px;
-    font-size: .875rem;
-    border-radius: 0.2rem;
-  }
-
-
-  .portfolio-card img{
-    Width: 177.97px;
-    Height: 112px;
-  }
-
-  .lead img{
-    width: 10px;
-    height: 10px;
-  }
 
   .dark-text{
     width: 80%;
@@ -450,47 +320,20 @@ footer img{
     padding: 0 4rem;
 }
 
-.desc-text {
-  margin: 1.5rem 0 0 0 ;
-  padding: 0 1.2rem;
-  text-align: justify !important;
-}
 
-.service-img-container {
-  padding: 1rem;
-}
-
-.service-text h1 {
-
-  text-align: center;
-}
-
-.service-text {
- width: 90%;
- margin: 1rem auto;
-}
 
 .py-5 {
   padding: 1rem 0 !important;
 }
 
-
-
-.serviceList-container p {
-  font-size: 14px;  
-}
-
-.services-box{
-  text-align: left !important;
-}
-
 .testimonial-container {
-  padding: 0 0 0 2rem;
+   padding: 0;
 }
+
 
 .left-testimonial-container{
   padding-right: 2rem;
-}
+} 
 
 footer img {
   width: 77px;
