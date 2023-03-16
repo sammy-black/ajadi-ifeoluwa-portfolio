@@ -1,3 +1,15 @@
 #portfolio{
     margin-bottom: 120px;
 }
+
+
+@media (max-width: 605px) {
+    .nav-item{
+        display: block;
+        width: 100%;
+    }
+
+    .nav-item button {
+        margin: 0 auto;
+    }
+}

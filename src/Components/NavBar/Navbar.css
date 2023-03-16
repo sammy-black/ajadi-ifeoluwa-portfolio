@@ -17,9 +17,6 @@
 
 
 @media (max-width: 525px) {
-    .nav{
-       flex-wrap: nowrap;
-    }
 
     #header .MuiSvgIcon-root{
         font-size: 25px;

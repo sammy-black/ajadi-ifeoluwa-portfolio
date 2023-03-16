@@ -43,16 +43,14 @@
   }
 
   @media (max-width: 661px) {
-    /* .justify-content-center {
-      justify-content: start !important;
-  } */
+  
 
   .tab-content{
     padding: 0;
   }
 
   .portfolio-card {
-    width: 40%;
+    width: 45%;
     height: 431px;
     margin: 10px;
     justify-content: space-between;
@@ -62,12 +60,24 @@
 
   }
 
-@media (max-width: 531px) {
+@media (max-width: 605px) {
+
+  .justify-content-center {
+    justify-content: space-between !important;
+    padding: 4%;
+    
+  }
 
   .portfolio-card{
     padding: 10px 15px;
     height: 330px;
   }
+
+  .portfolio-card hr {
+    width: 44px;
+    border: 2px solid #000000;
+    margin-bottom: 0;
+}
 
   .portfolio-card h1 {
     font-size: 22px;
@@ -88,8 +98,24 @@
 }
 .portfolio-card p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 19px;
   margin-top: 0;
   margin-bottom: 0;
 }
+}
+
+
+@media (max-width: 425px) {
+
+  .justify-content-center {
+    justify-content: space-between !important;
+    padding: 0 4% 0 7%;
+}
+
+  .portfolio-card {
+    width: 48%;
+    margin: 10px 0;
+  }
+  
 }

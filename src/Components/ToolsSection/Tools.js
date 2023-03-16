@@ -6,7 +6,7 @@ const Tools = () => {
     return (
         <div id="tools">
         <div className="container text-center mt-5">
-            <h1>Tools that i use</h1>
+            <h1>Tools</h1>
         
         <div className="tools-list">
           
