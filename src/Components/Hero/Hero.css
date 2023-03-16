@@ -10,6 +10,12 @@
     height: 100px;
   }
 
+  #header-hero .text-muted{
+    width: 45%;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
  .lead .MuiButtonBase-root{
     background-color: white;
     color: black;
@@ -44,7 +50,7 @@
     
  }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 531px) {
 
     .ajadi-img{
       width: 80%;
@@ -53,6 +59,12 @@
   .spacer{
     display: none;
   }
+
+  #header-hero .text-muted {
+    width: 70%;
+    font-size: 14px;
+    margin-top: 1.2rem;
+}
 
   .lead{
     margin-top: 2rem;

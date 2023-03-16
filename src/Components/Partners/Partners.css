@@ -10,3 +10,64 @@
 .partner-container img{
     margin: 15px;
   }
+
+  .bitnob{
+    width: 174px;
+    height: 60px
+  }
+
+  .cussons{
+    height: 100px;
+  }
+
+  .baptist-press{
+    height: 100px;
+    width: 150px;
+  }
+
+  .digi-oats{
+    width: 194px;
+    height: 50px;
+  }
+
+  .thermcool{
+    width: 150px;
+    height: 100px;
+  }
+
+  .bp-production{
+    width: 150px;
+    height: 100px;
+  }
+
+
+  @media (max-width: 531px) {
+    .bitnob{
+        width: 87px;
+        height: 30px
+      }
+    
+      .cussons{
+        height: 50px;
+      }
+
+      .baptist-press{
+        height: 50px;
+        width: 75px;
+      }
+
+      .digi-oats{
+        width: 97px;
+        height: 25px;
+      }
+
+      .thermcool{
+        width: 75px;
+        height: 50px;
+      }
+
+      .bp-production{
+        width: 75px;
+        height: 50px;
+      }
+  }

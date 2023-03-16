@@ -212,7 +212,7 @@ footer img{
 
 
 
-@media screen and (max-width: 978px) {
+@media(max-width: 978px) {
    
   .icon-email-footer{
     position: relative;
@@ -282,7 +282,7 @@ footer img{
 }
 
 
-@media screen and (max-width: 500px) {
+@media (max-width: 531px) {
 
 
   h1{

@@ -16,12 +16,12 @@ const Partners = () => {
       <h1>Trusted By</h1>
 
       <div className="partner-container">
-      <img style={{width: "174", height: "60px"}} src="/images/partners/bitnob.png" alt="bitnob"/>
-      <img style={{height: "100px"}} src="/images/partners/pz-cussons.png" alt="cussons"/>  
-      <img style={{width: "150", height: "100px"}} src="/images/partners/baptist-press.png" alt="baptist-press"/> 
-      <img style={{width: "194px", height: "50px"}} src="/images/partners/digiOats.png" alt="digioats"/>
-      <img style={{width: "150", height: "100px"}} src="/images/partners/thermcool.png" alt="thermcool"/>
-      <img style={{width: "150", height: "100px"}} src="/images/partners/bp-production.png" alt="bp-production"/>
+      <img className="bitnob"  src="/images/partners/bitnob.png" alt="bitnob"/>
+      <img className="cussons"  src="/images/partners/pz-cussons.png" alt="cussons"/>  
+      <img className="baptist-press"  src="/images/partners/baptist-press.png" alt="baptist-press"/> 
+      <img className="digi-oats"  src="/images/partners/digiOats.png" alt="digioats"/>
+      <img className="thermcool" src="/images/partners/thermcool.png" alt="thermcool"/>
+      <img className="bp-production" src="/images/partners/bp-production.png" alt="bp-production"/>
       </div>
 
       {/* <Slide slidesToScroll={1} slidesToShow={1} indicators={false}  responsive={responsiveSettings}>

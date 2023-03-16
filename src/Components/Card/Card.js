@@ -27,7 +27,7 @@ const Card = (props ) => {
 
         <div style={{textAlign: "end", position: "relative"}} >
 
-          <button> <img  style={{width:"18px",height: "18px"}} src={arrow} alt=""/></button>
+          <button className="card-btn"> <img  style={{width:"18px",height: "18px"}} src={arrow} alt=""/></button>
 
         </div>
          
