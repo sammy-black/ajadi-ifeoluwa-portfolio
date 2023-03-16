@@ -17,10 +17,40 @@ const Portfolio = ( ) => {
         <div className="portfolio-tab">
 
         <Tabs
-      defaultActiveKey="brand"
+      defaultActiveKey="product-design"
       id="uncontrolled-tab-example"
       className="mb-3"
     >
+
+<Tab eventKey="product-design" title="Product Design">
+        
+        <div  className="row row-cols-2 row-cols-md-3 justify-content-center">
+  
+  {data?.filter(item => item.section === "productDesign").map(item => {
+  
+                let backgroundColor = null
+  
+              if((item.id % 2) === 0) {
+                backgroundColor = "dark-brown"
+              } 
+  
+          return (
+  
+                 <Card 
+                   key={item.id}
+                   bg={backgroundColor}
+                   companyName={item.companyName}
+                   jobDesc={item.jobDesc}
+                  />     
+  
+          )
+      })}    
+  
+  </div>
+  
+        </Tab>
+
+      
       <Tab  eventKey="brand" title="Brand Identity">
 
       <div className="row row-cols-2 row-cols-md-3 justify-content-center">
@@ -78,35 +108,6 @@ const Portfolio = ( ) => {
           
       </Tab>
 
-
-      <Tab eventKey="product-design" title="Product Design">
-        
-      <div  className="row row-cols-2 row-cols-md-3 justify-content-center">
-
-{data?.filter(item => item.section === "productDesign").map(item => {
-
-              let backgroundColor = null
-
-            if((item.id % 2) === 0) {
-              backgroundColor = "dark-brown"
-            } 
-
-        return (
-
-               <Card 
-                 key={item.id}
-                 bg={backgroundColor}
-                 companyName={item.companyName}
-                 jobDesc={item.jobDesc}
-                />     
-            
-
-        )
-    })}    
-
-</div>
-
-      </Tab>
     </Tabs>
     
         </div>
