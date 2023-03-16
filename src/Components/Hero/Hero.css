@@ -50,7 +50,16 @@
     
  }
 
-@media screen and (max-width: 531px) {
+ @media (max-width: 600px) {
+    
+  #header-hero .text-muted {
+    width: 85%;
+    margin-top: 1.2rem;
+  }
+   
+ }
+
+@media (max-width: 531px) {
 
     .ajadi-img{
       width: 80%;

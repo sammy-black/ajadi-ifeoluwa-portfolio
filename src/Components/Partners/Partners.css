@@ -41,7 +41,8 @@
   }
 
 
-  @media (max-width: 531px) {
+  @media (max-width: 600px) {
+
     .bitnob{
         width: 87px;
         height: 30px
