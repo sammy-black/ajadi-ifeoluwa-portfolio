@@ -2,12 +2,15 @@ import "./Hero.css"
 import ajadi from "../../assets/images/Group.png"
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import { Animation } from "../../animation";
 
 
 const Hero = () =>{
 
 
     return (
+
+       <Animation type="fade-up">
 
         <div id="header-hero">
 
@@ -38,7 +41,7 @@ const Hero = () =>{
         </div>
     
       </div>
-
+</Animation>
 
     );
 }

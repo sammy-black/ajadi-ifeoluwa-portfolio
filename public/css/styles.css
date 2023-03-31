@@ -1,87 +1,84 @@
-body{
+body {
   background-color: black;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-style: normal;
 }
 
-
-
-#header{
-      padding: 2% 3%; 
-      display: flex;
+#header {
+  padding: 2% 3%;
+  display: flex;
 }
 
-h1{
+h1 {
   font-size: 75px;
   font-weight: 700;
   color: white;
   text-align: center;
 }
-.social-icons{
+.social-icons {
   color: white;
 }
 
 .nav-tabs {
-    border-bottom: none !important;
+  border-bottom: none !important;
 }
 
-.email-box{
+.email-box {
   text-align: right;
 }
 
- .email{
-   color: white;
-   text-decoration: none;
- }
-
- .email:hover{
-   opacity: 0.6;
-   color: white;
- }
-
- hr{
-   color: white;
-   opacity: 0.8;
-   margin: 0.5rem 0;
- }
-
-
- .nav-link{
-    font-size: 1.4rem;
- }
-
-.nav-tabs .nav-link {
-    margin-bottom: -1px;
-    background: 0 0;
-    border: none;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+.email {
+  color: white;
+  text-decoration: none;
 }
 
-.nav-container{
+.email:hover {
+  opacity: 0.6;
+  color: white;
+}
+
+hr {
+  color: white;
+  opacity: 0.8;
+  margin: 0.5rem 0;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: 0 0;
+  border: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: end;
 }
-.nav-tabs  .nav-link.active {
-    color: white !important;
-    background-color: black;
-    border: none;
-    opacity: 1;
+.nav-tabs .nav-link.active {
+  color: white !important;
+  background-color: black;
+  border: none;
+  opacity: 1;
 }
 
-
-
-.image-box{
+.image-box {
   position: relative;
 }
 
-.circle-img-lg, .circle-img{
+.circle-img-lg,
+.circle-img {
   border-radius: 50%;
   position: absolute;
 }
 
-.circle-img-lg{
+.circle-img-lg {
   border: 15px solid black;
   width: 150px;
   height: 150px;
@@ -92,213 +89,180 @@ h1{
   height: 100px;
 }
 
-.text-logo{
+.text-logo {
   width: 80%;
 }
 
-
-
-.portfolio-tab .nav-link, .dark-text{
-  color: #CFD2CF;
+.portfolio-tab .nav-link,
+.dark-text {
+  color: #cfd2cf;
   opacity: 0.5;
 }
 
-
-
 .nav-link:hover {
-    color: grey;
-    border: none;
+  color: grey;
+  border: none;
 }
 
-.dark-text{
+.dark-text {
   width: 38%;
   margin: 0 auto;
 }
 
-
-#portfolio{
+#portfolio {
   margin: 100px 0;
 }
 
-.portfolio-tab{
+.portfolio-tab {
   margin-top: 2rem;
 }
-
 
 .nav-tabs {
   justify-content: space-evenly;
 }
 
-h5{
-color: white;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-text-align: center;
-
+h5 {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
 }
 
-
-
-.tab-content{
+.tab-content {
   padding: 0 5%;
 }
 
-
-.testimonial-card{
-  padding-left: 0!important;
+.testimonial-card {
+  padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-.testimonial-scroll{
-  background-color: #EFEFEF;
+.testimonial-scroll {
+  background-color: #efefef;
   padding: 0;
 }
 
-.test-row{
+.test-row {
   margin-left: 0;
 }
 
-.testimonial-container{
+.testimonial-container {
   padding: 0 5rem;
 }
 
-.testimonial-text{
+.testimonial-text {
   width: 75%;
 }
 
-
-
-
 .my-custom-scrollbar {
-position: relative;
-height: 400px;
-overflow: auto;
+  position: relative;
+  height: 400px;
+  overflow: auto;
 }
 .table-wrapper-scroll-y {
-display: block;
+  display: block;
 }
 
-
-footer{
+footer {
   margin: 100px 0;
 }
 
-.footer-email{
+.footer-email {
   padding-left: 14px;
 }
 
-
-
-footer img{
+footer img {
   width: 447px;
   height: 486px;
   float: right;
 }
 
-.footer-logo-box{
+footer .social-icon{
+  height: 24px;
+  width: 24px;
+  float: none;
+}
+
+.footer-logo-box {
   position: relative;
 }
 
-.icon-email-footer{
+.icon-email-footer {
   position: absolute;
   bottom: 35%;
   left: 5%;
 }
 
-
-
-
-
-
-
-@media(max-width: 978px) {
-   
-  .icon-email-footer{
+@media (max-width: 978px) {
+  .icon-email-footer {
     position: relative;
-  
   }
 
-  footer img{
+  footer img {
     float: none;
   }
-
 }
 
 @media screen and (max-width: 769px) {
-
-  .dark-text{
+  .dark-text {
     width: 50%;
   }
 
+  #portfolio {
+    margin: 3rem 0;
+  }
 
+  .card {
+    margin-bottom: 2rem;
+  }
 
-#portfolio{
-  margin: 3rem 0;
-}
+  #testimonial {
+    text-align: center;
+  }
 
+  .testimonial-container {
+    padding: 0 2rem;
+  }
 
+  .testimonial-scroll {
+    margin-top: 3rem;
+  }
 
-
-.card{
-  margin-bottom: 2rem;
-}
-
-#testimonial{
-  text-align: center;
-
-}
-
-.testimonial-container{
-  padding: 0 2rem;
-}
-
-.testimonial-scroll{
-  margin-top: 3rem;
-}
-
-.text-start {
-  text-align: center!important;
-}
-  .testimonial-name, .testimonial-text{
+  .text-start {
+    text-align: center !important;
+  }
+  .testimonial-name,
+  .testimonial-text {
     width: 90%;
-    margin: 15px   auto 0 auto;
+    margin: 15px auto 0 auto;
     text-align: center;
   }
 
-
-  footer{
+  footer {
     text-align: center;
   }
 
- 
-  .footer-icon{
+  .footer-icon {
     justify-content: center;
     margin-top: 2.5rem;
   }
-
-
-
 }
 
-
 @media (max-width: 600px) {
-
-
-  h1{
+  h1 {
     font-size: 40px;
   }
 
   .nav-link {
-    font-size: 1.1rem
-  
+    font-size: 1.1rem;
   }
 
-  .circle-img{
+  .circle-img {
     display: none;
   }
 
-  .circle-img-lg{
+  .circle-img-lg {
     border: 10px solid black;
     width: 100px;
     height: 100px;
@@ -307,48 +271,38 @@ footer img{
   .text-logo {
     width: 85%;
     height: 140px;
-}
+  }
 
-
-
-  .dark-text{
+  .dark-text {
     width: 80%;
   }
 
-
   .left-textimonal-box {
     padding: 0 4rem;
+  }
+
+  .py-5 {
+    padding: 1rem 0 !important;
+  }
+
+  .testimonial-container {
+    padding: 0;
+  }
+
+  footer img {
+    width: 77px;
+    height: 83.6px;
+  }
+
+
+
+  .footer-email {
+    padding: 0;
+  }
 }
 
-
-
-.py-5 {
-  padding: 1rem 0 !important;
-}
-
-.testimonial-container {
-   padding: 0;
-}
-
-
- 
-
-footer img {
-  width: 77px;
-  height: 83.6px
-}
-
-.footer-email{
-  padding: 0;
-}
-
-}
-
-
-
-@media (min-width: 375px){
-.float-md-start {
-    float: left!important;
-}
-
+@media (min-width: 375px) {
+  .float-md-start {
+    float: left !important;
+  }
 }

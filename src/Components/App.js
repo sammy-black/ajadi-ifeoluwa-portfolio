@@ -5,10 +5,18 @@ import Hero from "./Hero/Hero";
  import Portfolio from "./Portfolio/Portfolio";
  import Testimonial from "./Testimonial";
  import Footer from "./Footer";
-
+ import AOS from "aos"
+import { useEffect } from "react";
 
 
 function App() {
+
+  useEffect(() => {
+     AOS.init({
+      duration: 2000,
+      delay: 100,
+     })
+  })
   return (
 
     <div>
